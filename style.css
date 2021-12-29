@@ -1,0 +1,44 @@
+container{
+    background-color: bisque;
+    display: grid;
+    grid-template-columns: 20% 80%;
+    border: 1px solid black;
+}
+
+header{
+    border: inherit;
+    grid-column: 1 / span 2;
+    height: 50px;
+    text-align: center;
+}
+
+nav{
+    border: inherit;
+    grid-column: 1 / span 2;
+    height: 50px;
+    display: flex;
+    justify-content: end;
+}
+
+nav div{
+    background-color: rgb(206, 255, 127);
+    border: 1 px solid black;
+    margin: 10px;
+}
+
+side{
+    border: inherit;
+    height: 450px;
+}
+
+article{
+    border: inherit;
+    height: 450px;
+}
+
+footer{
+    border: inherit;
+    grid-column: 1 / span 2;
+    height: 50px;
+    text-align: center;
+}
